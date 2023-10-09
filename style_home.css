@@ -1,0 +1,537 @@
+@font-face {
+    font-family: martian;
+    src: url(fonts/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#anim {
+    filter: blur(10px);     /*BACKGROUND ANIMATION*/
+    position: absolute;
+    opacity: 0.5;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+#main-logo {
+    margin: 20px 25px;
+}
+
+/************************
+***TOP BAR STARTS HERE***
+*************************/
+#top-bar {
+    background: linear-gradient(90deg, rgba(157,78,221,1) 0%, rgba(157,78,221,1) 55%, rgba(224,170,255,1) 100%);
+    margin: 12px 0px;
+    padding: 0px 25px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
+    z-index: 15;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#search-bar {
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px;
+    height: 35px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search-field {
+    font-family: martian;
+    font-size: 12px;
+    color: #575757;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    height: 28px;
+    outline: none;
+}
+
+#search-button {
+    border: none;
+    background-color: transparent;
+    margin-top: -3px;
+    position: relative;
+    width: 30px;
+    max-width: 100%;
+}
+
+#search-overlay-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+#search-button:hover #search-overlay-btn {
+        opacity: 1;
+}
+
+.top-link {
+    text-decoration: none;
+    margin-right: 45px;
+    color: white;
+    font-family: martian;
+    font-size: 16px;
+}
+
+.top-link:hover {
+    font-weight: bold;
+    text-shadow: 0px 1px 5px white;
+}
+/* This is the end of top bar */
+
+
+
+/*********************************
+***HERO OF THE BODY STARTS HERE***
+**********************************/
+#hero {
+    position: relative;
+    z-index: 10;
+    margin: 30px 150px;
+    /* padding: 80px 0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ts1 {
+    font-family: martian;   /*Your way to the*/
+    color: #333333;
+    font-size: 40px;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#ts2 {
+    font-family: martian;  /*World of coding*/
+    color: #4895ef;
+    margin: 10px 0px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+}
+
+#ts3 {
+    font-family: roboto;  /* Text */
+    color: #333333;
+    font-size: 14px;
+    margin: 15px 200px 30px 0px;
+    text-shadow: 0px 0px 1px white;
+}
+
+.dflex {
+    display: flex;
+}
+
+#li2 {
+    text-decoration: none;  /*Apply now link*/
+    font-family: martian;
+    font-size: 14px;
+    word-spacing: -5px;
+    color: white;
+    background-color: #9d4edd;
+    border: 2px solid #9d4edd;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#li2:hover {
+    border: 2px solid #9d4edd;
+    background-color: white;
+    color: #9d4edd;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px #9d4edd;
+}
+
+#li3 {
+    text-decoration: none;   /*Learn about Courses link*/
+    font-family: martian;
+    font-size: 14px;
+    word-spacing: -5px;
+    border: 2px solid #9d4edd;
+    color: #9d4edd;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+#li3:hover {
+    background-color: #9d4edd;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px white;
+}
+
+#img-developer {            /*IMAGE OF DEVELOPER*/
+    width: 500px;
+}
+
+#dev-anim {
+    width: 1800px;
+}
+/* This is the end of HERO */
+
+
+/***************************
+***STORE PART STARTS HERE***
+***************************/
+#new-store {
+    position: relative;
+    z-index: 13;
+    margin: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ts7 {
+    font-family: martian;   /*Check out our new*/
+    color: #333333;
+    font-size: 40px;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+    font-weight: bolder;
+}
+
+#ts8 {
+    font-family: martian;  /*Store!*/
+    color: #4895ef;
+    margin: 10px 0px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+    margin-bottom: 30px;
+}
+
+#li-store {
+    text-decoration: none;  /*Go to Store link*/
+    font-family: martian;
+    font-size: 14px;
+    word-spacing: -5px;
+    color: white;
+    background-color: #9d4edd;
+    border: 2px solid #9d4edd;
+    padding: 10px 20px;
+    border-radius: 50px;
+    }
+    
+#li-store:hover {
+    border: 2px solid #9d4edd;
+    background-color: white;
+    color: #9d4edd;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px #9d4edd;
+}
+
+#store-img {
+    width: 700px;
+    filter: drop-shadow(0px 35px 55px rgb(30, 36, 104));
+}
+
+/****************************
+***AUTHOR PART STARTS HERE***
+*****************************/
+#author-part {
+    background-color: rgb(227, 227, 227);
+    margin: 95px 0px 0px 0px;
+    padding: 40px 0px 20px 0px;
+    position: relative;
+    z-index: 16;
+}
+
+#ts4 {
+    font-family: martian;  /*About the author heading*/
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+}
+
+#author-part-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#img-author {
+    width: 200px;           /*AUTHOR image*/
+    border-radius: 50%;
+    margin: 30px;
+}
+
+#ts5 {
+    font-family: roboto;
+    color: #333333;
+    margin: 50px 0px;
+    inline-size: 500px;
+    text-wrap: balance;
+}
+/* Here ABOUT AUTHOR part ends */
+
+
+/*****************************
+***COUNTRY PART STARTS HERE***
+******************************/
+#country-part {
+    position: relative;
+    z-index: 14;
+}
+
+#ts6 {
+    font-family: martian;  /*Head text*/
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#uz-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-content: space-between;
+    margin: 40px 150px;
+    gap: 40px;
+}
+
+#uz-imgs-1 {
+    width: 353px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-1:hover {
+    transform: scale(1.3);
+}
+
+#uz-imgs-2 {
+    width: 355px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-2:hover {
+    transform: scale(1.3);
+}
+
+#uz-imgs-3 {
+    width: 418px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-3:hover {
+    transform: scale(1.3);
+}
+
+#uz-imgs-4 {
+    width: 567px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-4:hover {
+    transform: scale(1.25);
+}
+
+#uz-imgs-5 {
+    width: 598px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-5:hover {
+    transform: scale(1.3);
+}
+
+#uz-imgs-6 {
+    width: 512px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-6:hover {
+    transform: scale(1.25);
+}
+
+#uz-imgs-7 {
+    width: 654px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+#uz-imgs-7:hover {
+    transform: scale(1.2);
+}
+
+/***********************
+***FOOTER STARTS HERE***
+************************/
+footer {
+    background-color: #777777;
+    margin: 150px 0px 0px 0px;
+    padding: 100px 150px 50px 150px;
+    position: relative;
+    z-index: 16;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.foot-text {
+    font-family: roboto;
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#foot-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#ts9 {
+    color: #333333;
+    font-family: martian;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot-link {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 14px;
+    color: white;
+}
+
+.foot-link:hover {
+    color: #333333;
+}
+
+#foot3 {
+       display: flex;
+       justify-content: space-between;
+}
+
+#foot-lin {
+    width: 50px;
+    margin-right: 15px;
+    
+}
+
+#foot-lin:hover {
+    filter: drop-shadow(0px 0px 5px white);
+}
+
+#foot-inst {
+    width: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#foot-inst:hover {
+    filter: drop-shadow(0px 0px 5px white);
+}
+
+#foot-tw {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#foot-tw:hover {
+    filter: drop-shadow(0px 0px 5px white);
+}
+
+/******************************
+***ABOUT BB PART STARTS HERE***
+*******************************/
+#about-bitb {
+    margin: 100px 150px 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ts10 {
+    font-family: martian;  /*BitBrains*/
+    color: #4895ef;
+    margin: 10px 0px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+    margin-bottom: 30px;
+}
+
+#ts11 {
+    font-family: martian;   /*Learn like a pro subheader*/
+    color: #333333;
+    font-size: 40px;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#ts12 {
+    font-family: roboto;  /* Text */
+    color: #333333;
+    font-size: 14px;
+    margin: 15px 200px 30px 0px;
+    text-shadow: 0px 0px 1px white;
+}
+
+#dev-about-img {
+    width: 550px;
+}
+
+/*****************************
+***COURSES PART STARTS HERE***
+******************************/
+#courses-list {
+    margin: 20px 150px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#ts13 {
+    font-family: martian;  /*All courses*/
+    color: #4895ef;
+    margin: 80px 150px 20px 150px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+    margin-bottom: 30px;
+}
