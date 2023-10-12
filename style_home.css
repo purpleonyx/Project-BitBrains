@@ -516,6 +516,7 @@ ul {
     width: 550px;
 }
 
+
 /*****************************
 ***COURSES PART STARTS HERE***
 ******************************/
@@ -534,4 +535,48 @@ ul {
     font-weight: 900;
     text-shadow: 0px 0px 15px white;
     margin-bottom: 30px;
+}
+
+
+/*****************************
+***CONTACT PAGE STARTS HERE***
+******************************/
+#ts14 {
+    font-family: martian;  /*We'd love to hear from*/
+    color: #4895ef;
+    margin: 80px 150px 20px 150px;
+    font-size: 45px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#contacts {
+    margin: 50px 150px 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#phone-c, #mail-c, #address-c {
+    display: flex;
+    align-items: center;
+}
+
+.c-icons {
+    width: 50px;
+    margin: 15px 0px;
+}
+
+.c-texts {
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: martian;
+    font-size: 18px;
+}
+
+.c-texts:hover {
+    color: #333333;
 }
