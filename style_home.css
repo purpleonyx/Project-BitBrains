@@ -192,12 +192,9 @@ body {
     text-shadow: 0px 1px 5px white;
 }
 
-#img-developer {            /*IMAGE OF DEVELOPER*/
-    width: 500px;
-}
-
 #dev-anim {
-    width: 1800px;
+    width: 2000px;
+    filter: drop-shadow(0px 15px 45px #4361EE);
 }
 /* This is the end of HERO */
 
@@ -441,6 +438,15 @@ ul {
     color: #333333;
 }
 
+#download-bgpdf-btn {
+    width: 200px;
+    margin: 0px;
+}
+
+#download-bgpdf-btn:hover {
+    filter: drop-shadow(0px 0px 5px white);
+}
+
 #foot3 {
        display: flex;
        justify-content: space-between;
@@ -514,12 +520,54 @@ ul {
 
 #dev-about-img {
     width: 550px;
+    filter: drop-shadow(0px 15px 25px #4895EF);
 }
 
 
 /*****************************
 ***COURSES PART STARTS HERE***
 ******************************/
+#courses-hero {
+    margin: 80px 150px 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ts13 {
+    font-family: martian;  /*All courses*/
+    color: #4895ef;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+    margin-bottom: 30px;
+}
+
+#courses-text {
+    font-family: roboto;   /*About courses text*/
+    color: #333333;
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 180px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#learner-img {
+    width: 500px;
+    filter: drop-shadow(0px 15px 15px #7bafec);
+}
+
+#ts15 {
+    font-family: martian;  /*All courses*/
+    color: #4895ef;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px white;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
 #courses-list {
     margin: 20px 150px 30px 150px;
     display: flex;
@@ -527,29 +575,39 @@ ul {
     align-items: start;
 }
 
-#ts13 {
-    font-family: martian;  /*All courses*/
-    color: #4895ef;
-    margin: 80px 150px 20px 150px;
-    font-size: 60px;
-    font-weight: 900;
-    text-shadow: 0px 0px 15px white;
-    margin-bottom: 30px;
-}
-
 
 /*****************************
 ***CONTACT PAGE STARTS HERE***
 ******************************/
+#contact-hero {
+    margin: 80px 150px 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-img {
+    width: 500px;
+}
+
 #ts14 {
     font-family: martian;  /*We'd love to hear from*/
     color: #4895ef;
-    margin: 80px 150px 20px 150px;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 900;
     text-shadow: 0px 0px 15px white;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
+    padding-right: 30px;
+}
+
+#contact-text {
+    font-family: roboto;   /*Contacts subheader*/
+    color: #333333;
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 180px;
+    text-shadow: 0px 0px 10px white;
 }
 
 #contacts {
@@ -565,7 +623,7 @@ ul {
     align-items: center;
 }
 
-.c-icons {
+.c-icons {              /*Icons of Contacts*/
     width: 50px;
     margin: 15px 0px;
 }
