@@ -638,3 +638,124 @@ ul {
 .c-texts:hover {
     color: #333333;
 }
+
+
+/***************************
+***STORE PAGE STARTS HERE***
+****************************/
+#store-hero {
+    margin: 80px 150px 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-mini-img {
+    width: 170px;
+    filter: drop-shadow(0px 15px 25px #59189a65);
+}
+
+#store-hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sts1 {
+    font-family: martian;   /*We are excited to present you our*/
+    color: #333333;
+    font-size: 30px;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+    text-align: center;
+}
+
+#sts2 {
+    font-family: martian;  /*New Store*/
+    color: #4895ef;
+    margin: 10px 0px;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+}
+
+#store-main-items {
+    margin: 80px 150px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-item {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.store-item-img {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.store-item-img-hover {
+    position: absolute;
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.store-item-img-hover:hover {
+    opacity: 1;
+}
+
+.store-item-name {
+    margin: 10px 0px;
+    width: 300px;
+    font-family: martian;
+    font-size: 18px;
+    font-weight: 800;
+    text-wrap: balance;
+    color: #333333;
+}
+
+.store-item-price {
+    align-self: end;
+    font-family: martian;
+    font-size: 18px;
+    color: #38B000;
+}
+
+.store-item-buy-btn {
+    width: 100%;
+    text-decoration: none;  /*Buy button*/
+    font-family: martian;
+    font-size: 14px;
+    word-spacing: -5px;
+    color: white;
+    background-color: #4361EE;
+    border: 2px solid #4361EE;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.store-item-buy-btn:hover {
+    border: 2px solid #4361EE;
+    background-color: white;
+    color: #4361EE;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px #4361EE;
+}
