@@ -684,11 +684,12 @@ ul {
 #store-main-items {
     margin: 80px 150px 30px 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .store-item {
-    margin: 10px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
