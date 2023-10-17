@@ -27,6 +27,14 @@ body {
 
 #main-logo {
     margin: 20px 25px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1120px) {
+    #main-logo {
+        display: none;
+    }
 }
 
 /************************
@@ -104,6 +112,58 @@ body {
 .top-link:hover {
     font-weight: bold;
     text-shadow: 0px 1px 5px white;
+}
+
+#navbar-responsive {
+    display: none;
+    margin: 0px;
+    padding: 10px 15px;
+    background: linear-gradient(90deg, rgba(157,78,221,1) 0%, rgba(157,78,221,1) 55%, rgba(224,170,255,1) 100%);
+    position: relative;
+    z-index: 5;
+}
+
+#mini-main-logo {
+    width: 30px;
+}
+
+.top-link2 {
+    text-decoration: none;
+    font-family: martian;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+#nav-bar-responsive {
+    display: none;
+}
+
+#nav-bar-res-color {
+    background: linear-gradient(90deg, rgba(157,78,221,1) 0%, rgba(157,78,221,1) 55%, rgba(224,170,255,1) 100%);
+}
+
+#menu-btn {
+    color: #9d4edd;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#mySidebar {
+    background-color: #7B2CBF;
+}
+
+@media screen and (max-width: 1120px) {
+    #nav-bar {
+        display: none;
+    }
+
+    #nav-bar-responsive {
+        display: block;
+        position: relative;
+        z-index: 95;
+    }
 }
 /* This is the end of top bar */
 
@@ -193,8 +253,35 @@ body {
 }
 
 #dev-anim {
-    width: 2000px;
+    width: 2500px;
     filter: drop-shadow(0px 15px 45px #4361EE);
+}
+
+@media screen and (max-width: 1120px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 150px 100px 50px 100px;
+    }
+
+    #ts1 {
+        font-size: 4vw;
+        text-align: left;
+    }
+
+    #ts2 {
+        font-size: 6vw;
+    }
+
+    #ts3 {
+        margin: 20px 0px;
+    }
+
+    #dev-anim {
+        width: auto;
+        height: 100%;
+    }
 }
 /* This is the end of HERO */
 
@@ -252,8 +339,35 @@ body {
 }
 
 #store-img {
-    width: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 30px;
+    width: auto;
+    max-width: 700px;
     filter: drop-shadow(0px 35px 55px rgb(30, 36, 104));
+}
+
+@media screen and (max-width: 1120px) {
+    #new-store {
+        flex-direction: column;
+        align-items: start;
+        margin: 70px 100px 50px 100px;
+    }
+
+    #ts7 {
+        font-size: 4vw;
+    }
+
+    #ts8 {
+        font-size: 6vw;
+    }
+
+    #store-img {
+        margin-top: 50px;
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
 }
 
 /****************************
@@ -399,7 +513,11 @@ footer {
     padding: 100px 150px 50px 150px;
     position: relative;
     z-index: 16;
+}
+
+#footer-flex {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: end;
 }
@@ -481,6 +599,24 @@ ul {
     filter: drop-shadow(0px 0px 5px white);
 }
 
+@media screen and (max-width: 1150px) {
+    #footer-flex {
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    #foot2 {
+        margin: 10px 0px 0px -30px;
+    }
+
+    #foot3 {
+        margin-top: 15px;
+    }
+}
+
+
+
 /******************************
 ***ABOUT BB PART STARTS HERE***
 *******************************/
@@ -523,7 +659,17 @@ ul {
     filter: drop-shadow(0px 15px 25px #4895EF);
 }
 
+@media screen and (max-width: 1120px) {
+    #about-bitb {
+        flex-direction: column-reverse;
+        margin: 180px 100px;
+    }
 
+    #ts10 {
+        font-size: 6vw;
+        margin-top: 50px;
+    }
+}
 /*****************************
 ***COURSES PART STARTS HERE***
 ******************************/
@@ -648,6 +794,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 
 .store-mini-img {
@@ -686,6 +834,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
+    z-index: 10;
 }
 
 .store-item {
