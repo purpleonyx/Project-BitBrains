@@ -14,12 +14,12 @@ var animation = bodymovin.loadAnimation({
     path: 'scripts/developer_anim/developer.json'
   })
 
-  function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+  function openNav() {
+    document.getElementById("Side-nav").style.width = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
   }
   
-  function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
+  function closeNav() {
+    document.getElementById("Side-nav").style.width = "0";
+    document.body.style.backgroundColor = "white";
   }
