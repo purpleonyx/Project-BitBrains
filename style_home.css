@@ -841,6 +841,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 
 #ts10 {
@@ -866,26 +868,91 @@ ul {
     font-family: roboto;  /* Text */
     color: #333333;
     font-size: 14px;
-    margin: 15px 200px 30px 0px;
+    margin: 15px 100px 30px 0px;
     text-shadow: 0px 0px 1px white;
 }
 
 #dev-about-img {
     width: 550px;
+    height: auto;
     filter: drop-shadow(0px 15px 25px #4895EF);
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1130px) {
     #about-bitb {
-        flex-direction: column-reverse;
-        margin: 180px 100px;
+        margin: 100px 120px;
+    }
+
+    #dev-about-img {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    #about-bitb {
+        margin: 100px 80px;
+    }
+
+    #dev-about-img {
+        width: 450px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #about-bitb {
+        margin: 80px 50px;
+    }
+
+    #dev-about-img {
+        width: 420px;
+        height: auto;
     }
 
     #ts10 {
-        font-size: 6vw;
-        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    #ts11 {
+        font-size: 25px;
+    }
+
+    #ts12 {
+        margin: 15px 50px 30px 0px;
     }
 }
+
+@media screen and (max-width: 835px) {
+    #about-bitb {
+        flex-direction: column-reverse;
+        margin: 170px 60px 30px 60px;
+    }
+
+    #dev-about-img {
+        max-width: 650px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    #ts10 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    #ts11 {
+        font-size: 40px;
+    }
+
+    #ts12 {
+        margin: 15px 0px;
+        font-size: 20px;
+    }
+}
+
+
 /*****************************
 ***COURSES PART STARTS HERE***
 ******************************/
@@ -894,6 +961,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 
 #ts13 {
@@ -928,13 +997,17 @@ ul {
     margin: 40px 0px;
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 5;
 }
 
 #courses-list {
-    margin: 20px 150px 30px 150px;
+    margin: 20px 150px 100px 150px;
     display: flex;
     justify-content: space-between;
     align-items: start;
+    position: relative;
+    z-index: 5;
 }
 
 
@@ -950,6 +1023,8 @@ ul {
 
 #contact-img {
     width: 500px;
+    filter: drop-shadow(0px 15px 15px #7bafec);
+    z-index: 5;
 }
 
 #ts14 {
@@ -1125,4 +1200,147 @@ ul {
     color: #4361EE;
     font-weight: bold;
     text-shadow: 0px 1px 5px #4361EE;
+}
+
+
+/***************************
+***APPLY PAGE STARTS HERE***
+****************************/
+#apply-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    margin: 50px 150px 120px 150px;
+}
+
+#ts16 {
+    font-family: martian;   /*Become a part of coders*/
+    color: #333333;
+    font-size: 30px;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#ts17 {
+    font-family: martian;  /*Today*/
+    color: #4895ef;
+    margin: 10px 0px;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 0px 0px 15px white;
+}
+
+#ts18 {
+    font-family: roboto;   /*Text*/
+    color: #333333;
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 180px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#apply-hero-img {
+    width: 500px;
+    filter: drop-shadow(0px 15px 15px #7bafec);
+}
+
+/* Application Field */
+#apply-apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    z-index: 5;
+    margin: 60px 150px 100px 150px;
+}
+
+#ts19 {
+    font-family: martian;   /*Languages studied*/
+    color: #333333;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#pr-languages-img {
+    height: 380px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 5px #7bafec);
+}
+
+#apply-apply-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 35px;
+    padding: 40px;
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#ts20 {
+    font-family: martian;   /*Send application*/
+    color: #333333;
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: -5px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px white;
+}
+
+#ts21 {
+    font-family: roboto;   /*every 10 days*/
+    color: #333333;
+    font-size: 14px;
+    margin: 10px auto 30px auto;
+    text-shadow: 0px 0px 10px white;
+}
+
+#application {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apply-inpfield {
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #bdbdbd;
+    font-family: martian;
+    font-size: 14px;
+    color: #333333;
+}
+
+#apply-sbmbtn {
+    background-color: #4361EE;
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    font-family: martian;
+    margin: 15px 0px;
+}
+
+#apply-sbmbtn:hover {
+    background-color: #3F37C9;
+}
+
+#apply-checktandc {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+#termsandcondcheck {
+    margin: 5px 0px;
+}
+
+#ts22 {
+    font-size: 13px;
 }

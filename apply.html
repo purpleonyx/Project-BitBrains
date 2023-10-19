@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
     <head>
-        <title>BitBrains - Study Coding</title>
+        <title>Apply - BitBrains</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style_home.css">
@@ -15,7 +15,7 @@
             <script src="scripts/lottie.js"></script>
             <script src="scripts/script.js"></script>
         </div>
-        
+
         <div id="nav-bar">
             <img src="/images/logo_horizontal.png" alt="Main Logo" id="main-logo" width="250">
             <img src="images/logo_only.png" alt="Main Logo Minimalistic" id="main-logo-mini">
@@ -26,7 +26,7 @@
                         <a class="top-link" href="home.html">Home</a>
                         <a class="top-link" href="about.html">About</a>
                         <a class="top-link" href="courses.html">Courses</a>
-                        <p class="top-link-disabled">Contact</p>
+                        <a class="top-link" href="contact.html">Contact</a>
                     </div>
 
                     <div id="sidebar-menu">
@@ -35,7 +35,7 @@
                             <a class="side-nav-links" href="home.html">Home</a>
                             <a class="side-nav-links" href="about.html">About</a>
                             <a class="side-nav-links" href="courses.html">Courses</a>
-                            <a class="side-nav-links" href="#">Contact</a>
+                            <a class="side-nav-links" href="contact.html">Contact</a>
                           </div>
                           
                           <span id="side-nav-openbtn" onclick="openNav()">≡</span>
@@ -53,26 +53,33 @@
             </nav>
         </div>
 
-        <div id="contact-hero">
+        <div id="apply-hero">
             <div>
-                <h1 id="ts14">We'd love to hear from you</h1>
-                <p id="contact-text">Whether you're curious about features, a free trial, or if you have any other question — we're ready to answer any and all questions.</p>
+                <h1 id="ts16">Become a part of coders</h1>
+                <h1 id="ts17">Today!</h1>
+                <p id="ts18">Become a sought-after developer. You will learn programming fundamentals and core concepts in computer science, digital technologies, operating systems, software, databases, analytics, programming languages and much more. Become familiar with testing and systems analysis. During the program you will be able to make an informed choice of specialization and technologies, and upgrade yourself in the chosen direction.</p>
             </div>
-            <img src="images/contact-img-main.svg" alt="Bit Staff is answering to phone" id="contact-img">
+            <img src="images/apply-illustration.svg" alt="Applying to BitBrains Illustration" id="apply-hero-img">
         </div>
 
-        <div id="contacts">
-            <div id="phone-c">
-                <img src="images/contact-phone.svg" alt="Phone Call icon" class="c-icons">
-                <a href="tel:+447442349628" class="c-texts">+44 7442 349628</a>
+        <div id="apply-apply">
+            <div id="apply-apply-info">
+                <h1 id="ts19">Languages and technologies studied:</h1>
+                <img src="images/pr-languages.svg" alt="Programming Languages taught in BitBrains" id="pr-languages-img">
             </div>
-            <div id="mail-c">
-                <img src="images/contact-mail.svg" alt="Send email icon" class="c-icons">
-                <a href="mailto:odiljonshokarimov@gmail.com" class="c-texts">odiljonshokarimov@gmail.com</a>
-            </div>
-            <div id="address-c">
-                <img src="images/contact-address.svg" alt="Our address icon" class="c-icons">
-                <a href="https://maps.app.goo.gl/XVmNZYwWpZr2cSvXA" class="c-texts" target="_blank">Brian Statham Way, Old Trafford, Stretford, Manchester M16 0PU</a>
+
+            <div id="apply-apply-field">
+                <h1 id="ts20">Send application</h1>
+                <p id="ts21">Courses start every 10 days</p>
+                <form id="application">
+                    <input type="text" placeholder="Your full name" class="apply-inpfield" required>
+                    <input type="email" placeholder="Your email" class="apply-inpfield" required>
+                    <input type="tel" placeholder="Your mobile number" class="apply-inpfield" required data-name="phone">
+                    <button type="submit" id="apply-sbmbtn">I want to study!</button>
+                    <div id="apply-checktandc">
+                        <input type="checkbox" id="termsandcondcheck" name="TandC" required><label for="TandC" id="ts22">By submitting an application, you accept the terms of the offer agreement and consent to the processing of your personal data in accordance with the privacy policy.</label>
+                    </div>
+                </form>
             </div>
         </div>
     </body>
@@ -85,7 +92,7 @@
                 <p class="foot-text">Odiljon Shokarimov.</p>
                 <p class="foot-text">© 2023 All rights reserved.</p>
             </div>
-
+    
             <div id="foot2">
                 <ul>
                     <h1 id="ts9">Links</h1>
@@ -95,7 +102,7 @@
                     <li><a class="foot-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-
+    
             <div id="foot3">
                 <a href="files/BitBrains - Brand Guide.pdf" download><img src="images/bgpdf-download-btn.svg" alt="Download Brand Guide Book PDF" id="download-bgpdf-btn"></a>
                 <div id="social-med-foot-li">
