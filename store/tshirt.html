@@ -1,0 +1,152 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Store - BitBrains</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style_home.css">
+        <link rel="stylesheet" href="tshirt_style.css">
+        <script src="store_script.js"></script>
+        <script src="/scripts/script.js"></script>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <img src="/images/logo_horizontal.png" alt="Main Logo" id="main-logo" width="250">
+            <img src="/images/logo_only.png" alt="Main Logo Minimalistic" id="main-logo-mini">
+            <nav>
+                <div id="top-bar">
+                    <img src="/images/logo_only_white.png" alt="Main Logo Minimalistic White" id="main-logo-mini-white">
+                    <div id="nav-top-links">
+                        <a class="top-link" href="/home.html">Home</a>
+                        <a class="top-link" href="/about.html">About</a>
+                        <a class="top-link" href="/courses.html">Courses</a>
+                        <a class="top-link" href="/contact.html">Contact</a>
+                    </div>
+
+                    <div id="sidebar-menu">
+                        <div id="Side-nav" class="side-nav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a class="side-nav-links" href="/home.html">Home</a>
+                            <a class="side-nav-links" href="/about.html">About</a>
+                            <a class="side-nav-links" href="/courses.html">Courses</a>
+                            <a class="side-nav-links" href="/contact.html">Contact</a>
+                          </div>
+                          
+                          <span id="side-nav-openbtn" onclick="openNav()">≡</span>
+                    </div>
+
+                    <div id="search-bar">
+                        <input type="text" placeholder="Search" id="search-field">
+                        <button id="search-button">
+                            <img src="/images/search_button.svg" alt="search button">
+                            <img id="search-overlay-btn" src="/images/search_button-hover.svg">
+                        </button>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+
+        <div class="product-box">
+
+            <div class="carousel-container">
+                  <div class="carousel my-carousel carousel--translate">
+                  <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
+                  <input class="carousel__activator" type="radio" name="carousel" id="G"/>
+                  <!-- <input class="carousel__activator" type="radio" name="carousel" id="H"/>
+                  <input class="carousel__activator" type="radio" name="carousel" id="I"/>
+                  <input class="carousel__activator" type="radio" name="carousel" id="J"/> -->
+                  <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="J"></label>
+                    <label class="carousel__control carousel__control--forward" for="G"></label>
+                  </div>
+                  <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="F"></label>
+                    <label class="carousel__control carousel__control--forward" for="H"></label>
+                  </div>
+                  <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="G"></label>
+                    <label class="carousel__control carousel__control--forward" for="I"></label>
+                  </div>
+                  <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="H"></label>
+                    <label class="carousel__control carousel__control--forward" for="J"></label>
+                  </div>
+                  <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="I"></label>
+                    <label class="carousel__control carousel__control--forward" for="F"></label>
+                  </div>
+                  <div class="carousel__track">
+                    <li class="carousel__slide">
+                      <h1 class="slide-text">Front View</h1>
+                    </li>
+                    <li class="carousel__slide">
+                      <h1 class="slide-text">Side View</h1>
+                    </li>
+                    <li class="carousel__slide">
+                      <h1 class="slide-text">H</h1>
+                    </li>
+                    <li class="carousel__slide">
+                      <h1 class="slide-text">I</h1>
+                    </li>
+                    <li class="carousel__slide">
+                      <h1 class="slide-text">J</h1>
+                    </li>
+                  </div>
+                  <div class="carousel__indicators">
+                    <label class="carousel__indicator" for="F"></label>
+                    <label class="carousel__indicator" for="G"></label>
+                    <!-- <label class="carousel__indicator" for="H"></label>
+                    <label class="carousel__indicator" for="I"></label>
+                    <label class="carousel__indicator" for="J"></label> -->
+                  </div>
+                </div>
+            </div>
+
+            <div class="product-description">
+                <h1 class="descr-title">Stylish Hoodie for Developers with print</h1>
+                <ul class="descr-specs">
+                    <li>80% Cotton, 20% Polyester</li>
+                    <li>Made with care</li>
+                    <li>Lace Up closure</li>
+                    <li>Machine Wash</li>
+                    <li>Fleece is sueded outside, incredibly soft inside</li>
+                    <li>Hood has contrasting jersey lining</li>
+                    <li>Flat woven draw cord with turned and tacked ends</li>
+                    <li>Ribbed cuffs and waistband</li>
+                    <li>Forward shoulders; relaxed waistband; pouch pocket</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+    <div id="store-footer">
+        <div id="footer-flex">
+            <div id="foot1">
+                <img src="/images/logo_horizontal_white.png" alt="White Logo of BitBrains" id="foot-logo">
+                <p class="foot-text">Designed and built by</p>
+                <p class="foot-text">Odiljon Shokarimov.</p>
+                <p class="foot-text">© 2023 All rights reserved.</p>
+            </div>
+
+            <div id="foot2">
+                <ul id="foot-ul">
+                    <h1 id="ts9">Links</h1>
+                    <li><a class="foot-link" href="/about.html">About</a></li>
+                    <li><a class="foot-link" href="/courses.html">Courses</a></li>
+                    <li><a class="foot-link" href="/store.html">Store</a></li>
+                    <li><a class="foot-link" href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="foot3">
+                <a href="/files/BitBrains - Brand Guide.pdf" download><img src="/images/bgpdf-download-btn.svg" alt="Download Brand Guide Book PDF" id="download-bgpdf-btn"></a>
+                <div id="social-med-foot-li">
+                <a href="https://www.linkedin.com/in/odiljon-shokarimov-9860941b2/" target="_blank"><img src="/images/lin-logo.svg" alt="View LinkedIn profile" id="foot-lin"></a>
+                <a href="https://www.instagram.com/gd_odilbek/" target="_blank"><img src="/images/inst-logo.svg" alt="View Instagram profile" id="foot-inst"></a>
+                <a href="https://twitter.com/Odilbek8010" target="_blank"><img src="/images/twitter-logo.svg" alt="View Twitter profile" id="foot-tw"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
