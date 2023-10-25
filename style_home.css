@@ -687,7 +687,7 @@ body {
 ***FOOTER STARTS HERE***
 ************************/
 footer {
-    background-color: #777777;
+    background-color: #5A189A;
     margin: 0px;
     padding: 100px 150px 50px 150px;
     position: absolute;
@@ -717,7 +717,7 @@ footer {
 }
 
 #ts9 {
-    color: #333333;
+    color: white;
     font-family: martian;
     font-size: 20px;
     font-weight: bolder;
@@ -725,6 +725,7 @@ footer {
 
 #foot-ul {
     list-style: none;
+    margin-left: -30px;
 }
 
 .foot-link {
@@ -735,7 +736,7 @@ footer {
 }
 
 .foot-link:hover {
-    color: #333333;
+    color: #E0AAFF;
 }
 
 #download-bgpdf-btn {
