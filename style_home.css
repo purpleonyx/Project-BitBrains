@@ -280,7 +280,7 @@ body {
 
 #ts2 {
     font-family: martian;  /*World of coding*/
-    color: #4895ef;
+    color: #3F37C9;
     margin: 10px 0px;
     font-size: 60px;
     font-weight: 900;
@@ -455,7 +455,7 @@ body {
 
 #ts8 {
     font-family: martian;  /*Store!*/
-    color: #4895ef;
+    color: #3F37C9;
     margin: 10px 0px;
     font-size: 60px;
     font-weight: 900;
@@ -848,7 +848,7 @@ footer {
 
 #ts10 {
     font-family: martian;  /*BitBrains*/
-    color: #4895ef;
+    color: #3F37C9;
     margin: 10px 0px;
     font-size: 60px;
     font-weight: 900;
@@ -876,7 +876,7 @@ footer {
 #dev-about-img {
     width: 550px;
     height: auto;
-    filter: drop-shadow(0px 15px 25px #4895EF);
+    filter: drop-shadow(0px 15px 25px #3F37C9);
 }
 
 @media screen and (max-width: 1130px) {
@@ -968,7 +968,7 @@ footer {
 
 #ts13 {
     font-family: martian;  /*All courses*/
-    color: #4895ef;
+    color: #3F37C9;
     font-size: 60px;
     font-weight: 900;
     text-shadow: 0px 0px 15px white;
@@ -991,7 +991,7 @@ footer {
 
 #ts15 {
     font-family: martian;  /*All courses*/
-    color: #4895ef;
+    color: #3F37C9;
     font-size: 40px;
     font-weight: 700;
     text-shadow: 0px 0px 15px white;
@@ -1070,7 +1070,7 @@ footer {
 
 #ts14 {
     font-family: martian;  /*We'd love to hear from*/
-    color: #4895ef;
+    color: #3F37C9;
     font-size: 60px;
     font-weight: 900;
     text-shadow: 0px 0px 15px white;
@@ -1154,7 +1154,7 @@ footer {
 
 #sts2 {
     font-family: martian;  /*New Store*/
-    color: #4895ef;
+    color: #3F37C9;
     margin: 10px 0px;
     font-size: 90px;
     font-weight: 900;
@@ -1268,7 +1268,7 @@ footer {
 
 #ts17 {
     font-family: martian;  /*Today*/
-    color: #4895ef;
+    color: #3F37C9;
     margin: 10px 0px;
     font-size: 90px;
     font-weight: 900;
