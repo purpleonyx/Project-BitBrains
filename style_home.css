@@ -1312,6 +1312,7 @@ footer {
     #contact-hero {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         margin: 140px 50px 30px 50px;
     }
     #contact-img {
@@ -1323,9 +1324,13 @@ footer {
     #contact-text {
         padding-right: 0px;
         font-size: 4vw;
+        text-align: center;
     }
     #ts14 {
         font-size: 8vw;
+        margin: 0px -15px 10px -15px;
+        text-align: center;
+        padding: 0;
     }
 
     #contacts {
@@ -1495,6 +1500,11 @@ footer {
         width: 100%;
         height: 400px;
     }
+    .store-item-img-hover{
+        max-width: 450px;
+        width: 100%;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -1502,6 +1512,11 @@ footer {
         justify-content: space-evenly;
     }
     .store-item-img {
+        max-width: 350px;
+        width: 100%;
+        height: 400px;
+    }
+    .store-item-img-hover{
         max-width: 350px;
         width: 100%;
         height: 400px;
@@ -1516,6 +1531,11 @@ footer {
         justify-content: space-evenly;
     }
     .store-item-img {
+        max-width: 300px;
+        width: 100%;
+        height: 350px;
+    }
+    .store-item-img-hover{
         max-width: 300px;
         width: 100%;
         height: 350px;
@@ -1537,6 +1557,11 @@ footer {
         width: 100%;
         height: 350px;
     }
+    .store-item-img-hover{
+        max-width: 300px;
+        width: 100%;
+        height: 350px;
+    }
     #store-hero {
         margin: 140px 50px 40px 50px;
     }
@@ -1554,6 +1579,9 @@ footer {
         width: 100%;
         max-height: 450px;
         height: auto;
+    }
+    .store-item-img-hover{
+        display: none;
     }
     #store-hero {
         margin: 140px 50px 40px 50px;
@@ -1712,6 +1740,116 @@ footer {
     font-size: 13px;
 }
 
+@media screen and (max-width: 1425px) {
+    #apply-apply {
+        margin: 60px 120px 100px 120px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    #ts20 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    #ts18 {
+        padding-right: 40px;
+    }
+    #apply-apply {
+        margin: 60px 80px 100px 80px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    #apply-hero {
+        margin: 50px 100px 120px 100px;
+    }
+
+    #apply-apply {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    #pr-languages-img {
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+    }
+    #apply-apply-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #ts19 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #apply-apply-field {
+        width: 735px;
+        margin: 20px auto 50px auto;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    #apply-hero-img {
+        max-width: 450px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #apply-hero-img {
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    #apply-hero {
+        margin: 120px 80px;
+    }
+    #ts16 {
+        font-size: 20px;
+    }
+    #ts17 {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #apply-hero {
+        flex-direction: column-reverse;
+        margin: 130px 40px 50px 40px;
+    }
+    #ts16 {
+        margin-top: 40px;
+        font-size: 4vw;
+    }
+    #ts17{
+        font-size: 16vw;
+    }
+    #ts18 {
+        padding: 0;
+        font-size: 4vw;
+    }
+    #apply-apply-info {
+        margin: 0px 40px;
+    }
+    #apply-apply-field {
+        width: auto;
+        margin: 20px 40px 50px 40px;
+    }
+    #apply-hero-img {
+        max-width: 550px;
+        width: 100%;
+        height: auto;
+    }
+}
+
 /********************************
 *** - - FOOTER FOR STORES - - ***
 *********************************/
@@ -1786,6 +1924,45 @@ footer {
     text-shadow: 0px 1px 5px #4895EF;
 }
 
+@media screen and (max-width: 1250px) {
+    .product-box {
+        margin: 50px 50px;
+    }
+    .descr-title {
+        font-size: 28px;
+        line-height: auto;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .product-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-description{
+        padding: 45px;
+    }
+    .product-addtocart-btn {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    .product-box {
+        margin: 120px 50px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .product-box {
+        margin: 120px 10px;
+    }
+    .product-description{
+        padding: 15px;
+    }
+}
+
 /*******************
 *** - - CART - - ***
 ********************/
@@ -1851,4 +2028,12 @@ footer {
     color: #4361EE;
     font-weight: bold;
     text-shadow: 0px 1px 5px #4895EF;
+}
+
+@media screen and (max-width: 400px) {
+    #cart-btn {
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+    }
 }
