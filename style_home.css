@@ -2030,10 +2030,27 @@ footer {
     text-shadow: 0px 1px 5px #4895EF;
 }
 
+@media screen and (max-width: 800px) {
+    #cartItems {
+        max-width: 550px;
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     #cart-btn {
         position: fixed;
         bottom: 5%;
         right: 5%;
+    }
+    #cartItems {
+        max-width: 335px;
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
