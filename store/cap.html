@@ -10,44 +10,39 @@
     </head>
 
     <body>
-        <div id="nav-bar">
-            <img src="/images/logo_horizontal.png" alt="Main Logo" id="main-logo" width="250">
-            <img src="/images/logo_only.png" alt="Main Logo Minimalistic" id="main-logo-mini">
-            <nav>
-                <div id="top-bar">
-                    <img src="/images/logo_only_white.png" alt="Main Logo Minimalistic White" id="main-logo-mini-white">
-                    <div id="nav-top-links">
-                        <a class="top-link" href="/home.html">Home</a>
-                        <a class="top-link" href="/about.html">About</a>
-                        <a class="top-link" href="/courses.html">Courses</a>
-                        <a class="top-link" href="/contact.html">Contact</a>
-                    </div>
+      <div id="nav-bar">
+        <img src="/images/logo_horizontal.png" alt="Main Logo" id="main-logo" width="250">
+        <img src="images/logo_only.png" alt="Main Logo Minimalistic" id="main-logo-mini">
+        <nav>
+            <div id="top-bar">
+                <img src="images/logo_only_white.png" alt="Main Logo Minimalistic White" id="main-logo-mini-white">
+                <div id="nav-top-links">
+                  <a class="top-link" href="/home.html">Home</a>
+                  <a class="top-link" href="/about.html">About</a>
+                  <a class="top-link" href="/courses.html">Courses</a>
+                  <a class="top-link" href="/contact.html">Contact</a>
+                  <a class="top-link" href="/store.html">Store</a>
+                  <a id="top-link-apply" href="/apply.html">Apply Now</a>
+              </div>
 
-                    <div id="sidebar-menu">
-                        <div id="Side-nav" class="side-nav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a class="side-nav-links" href="/home.html">Home</a>
-                            <a class="side-nav-links" href="/about.html">About</a>
-                            <a class="side-nav-links" href="/courses.html">Courses</a>
-                            <a class="side-nav-links" href="/contact.html">Contact</a>
-                          </div>
-                          
-                          <span id="side-nav-openbtn" onclick="openNav()">≡</span>
+              <div id="sidebar-menu">
+                  <div id="Side-nav" class="side-nav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <a class="side-nav-links" href="/home.html">Home</a>
+                      <a class="side-nav-links" href="/about.html">About</a>
+                      <a class="side-nav-links" href="/courses.html">Courses</a>
+                      <a class="side-nav-links" href="/contact.html">Contact</a>
+                      <a class="side-nav-links" href="/store.html">Store</a>
+                      <a class="side-nav-links" href="/apply.html">Apply now</a>
                     </div>
-
-                    <div id="search-bar">
-                        <input type="text" placeholder="Search" id="search-field">
-                        <button id="search-button">
-                            <img src="/images/search_button.svg" alt="search button">
-                            <img id="search-overlay-btn" src="/images/search_button-hover.svg">
-                        </button>
-                    </div>
-                    
+                      
+                      <span id="side-nav-openbtn" onclick="openNav()">≡</span>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+      </div>
 
-        <div class="product-box">
+      <div class="product-box">
 
             <div class="carousel-container">
                   <div class="carousel my-carousel carousel--translate">
@@ -104,6 +99,7 @@
             </div>
 
             <div class="product-description">
+              <div>
                 <h1 class="descr-title">BitBrain's Adjustable Baseball Cap with &lt;head&gt; attribute</h1>
                 <ul class="descr-specs">
                     <li>100% Cotton</li>
@@ -113,8 +109,12 @@
                     <li>The perfect balance of comfort and style make this cap for developers a go-to for everyday wear.</li>
                     <li>Made in pure, 100% cotton canvas with six-panel construction, ventilating grommets and an adjustable strap closure, stays naturally cool and keeps the sun at bay.</li>
                 </ul>
+              </div>
+              <button class="product-addtocart-btn" onclick="addToCart('Baseball Cap Unisex', 19.90)">Add to cart</button>
             </div>
         </div>
+
+      <a id="cart-btn" href="/cart.html"><img id="cart-image-btn" src="/images/cart-icon.svg" alt="cart"></a>
     </body>
 
     <div id="store-footer">

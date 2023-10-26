@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en">
     <head>
-        <title>About - BitBrains</title>
+        <title>Cart - BitBrains</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style_home.css">
@@ -10,12 +10,6 @@
     </head>
 
     <body>
-        <div id="bckg_anim">
-            <div id="anim"></div>
-            <script src="scripts/lottie.js"></script>
-            <script src="scripts/script.js"></script>
-        </div>
-        
         <div id="nav-bar">
             <img src="/images/logo_horizontal.png" alt="Main Logo" id="main-logo" width="250">
             <img src="images/logo_only.png" alt="Main Logo Minimalistic" id="main-logo-mini">
@@ -24,7 +18,7 @@
                     <img src="images/logo_only_white.png" alt="Main Logo Minimalistic White" id="main-logo-mini-white">
                     <div id="nav-top-links">
                         <a class="top-link" href="home.html">Home</a>
-                        <p class="top-link-disabled">About</p>
+                        <a class="top-link" href="about.html">About</a>
                         <a class="top-link" href="courses.html">Courses</a>
                         <a class="top-link" href="contact.html">Contact</a>
                         <a class="top-link" href="store.html">Store<span id="new-badge" class="translate-middle badge rounded-pill bg-danger">New!</span></a>
@@ -34,8 +28,8 @@
                     <div id="sidebar-menu">
                         <div id="Side-nav" class="side-nav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a class="side-nav-links" href="home.html">Home</a>
-                            <a class="side-nav-links" href="#">About</a>
+                            <a class="side-nav-links" href="#">Home</a>
+                            <a class="side-nav-links" href="about.html">About</a>
                             <a class="side-nav-links" href="courses.html">Courses</a>
                             <a class="side-nav-links" href="contact.html">Contact</a>
                             <a class="side-nav-links" href="store.html">Store</a>
@@ -48,37 +42,13 @@
             </nav>
         </div>
 
-        <div id="about-bitb">
-            <div>
-                <h1 id="ts10">BitBrains</h1>
-                <h1 id="ts11">Learn coding like a Pro</h1>
-                <p id="ts12">An educational platform on which you can master an in-demand profession from scratch, as well as gain knowledge and skills to move to the next level in your career.<br>
-                    <br>An IT specialist is a representative of one of more than 500 digital professions related to the development of programs and the use of computer technology.<br>            
-                    <br>The training uses a practice-oriented teaching method. During practical classes, you will master new tools in your chosen area and consolidate your acquired knowledge.
-                </p>
-            </div>
-            <img src="images/about-bb-dev.svg" alt="Developer coding and chilling while ruling the world" id="dev-about-img">
-        </div>
+        <div id="cartItems">
+            <h2 id="textc2">Items in your cart:</h2>
+            <ul id="items-in-cart">
 
-        <div id="author-part">
-            <h1 id="ts4">About the author</h1>
-            <div id="author-part-2">
-                <img src="images/portrait.jpg" alt="Portrait of an author" id="img-author">
-                <p id="ts5">Hello, my name is Odiljon. I am a Graphic and Web Designer. Currently I am studying Computer Science at UA92 in Manchester UK. I was born in Uzbekistan - a beautiful country in Central Asia. I am 25 years old and I have pretty good experience in Graphic Design. In Web-Design I am just a beginner, as I just started learning Front-End Development. However, this website you are currently in, I designed by myself from scratch using only HTML and CSS :)</p>
-            </div>
-        </div>
-
-        <div id="country-part">
-            <h1 id="ts6">About my Country - Uzbekistan</h1>        
-            <div id="uz-pictures">
-                <img id="uz-imgs-1" src="images/uz-kukeldash.jpg" alt="Kukeldash Madrasah in Bukhara">
-                <img id="uz-imgs-2" src="images/uz-metro-station.jpg" alt="One of the Undeground Metro Station in Tashkent">
-                <img id="uz-imgs-3" src="images/uz-plov.jpeg" alt="Uzbek national food - Osh">
-                <img id="uz-imgs-4" src="images/uzbekistan-mountains-landscape.jpg" alt="Beautiful Landscapes of Uzbekistan">
-                <img id="uz-imgs-5" src="images/uz-registan.jpg" alt="Registan Complex in Samarqand">
-                <img id="uz-imgs-6" src="images/uz-samarqand.jpg" alt="Historical place Shahi Zinda in Samarqand">
-                <img id="uz-imgs-7" src="images/uz-tashkent.jpg" alt="View of Tashkent with City Tower">
-            </div>
+            </ul>
+            <p id="total-price">Total: $<span id="cartTotal">0.00</span></p>
+            <a href="" id="checkout-btn">Checkout</a>
         </div>
     </body>
 
